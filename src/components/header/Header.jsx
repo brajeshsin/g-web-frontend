@@ -23,7 +23,7 @@ const Header = () => {
           <img src="/assets/Vector.png" alt="Logo" />
 
           <h1 className="font-bold text-[18px]  md:text-[20px] text-black font-InstrumentSans">
-            Brajesh Training
+            Primal Training
           </h1>
         </Link>
 
