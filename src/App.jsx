@@ -6,6 +6,7 @@ import Reserve from "./components/Reserve/Reserve";
 import Footer from "./components/header/Footer";
 import { Toaster } from "react-hot-toast";
 import ScrollToTopButton from "./components/header/scrollToTopButton";
+import ScrollToTop from "./components/utils/ScrollToTop";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <ScrollToTopButton />
 
       <BrowserRouter>
+        <ScrollToTop />
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />

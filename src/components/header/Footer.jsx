@@ -19,7 +19,7 @@ const Footer = () => {
             className="text-black font-InstrumentSans 
           text-2xl sm:text-3xl md:text-4xl lg:text-[52px] font-semibold text-center md:text-right"
           >
-            Brajesh TRAINING
+            Elvora Training
           </h1>
         </div>
       </div>
@@ -30,7 +30,7 @@ const Footer = () => {
           </h1>
 
           <p className="font-Geist font-bold text-[14px] mt-4">
-            Email: info@Brajeshtraining.com
+            Email: info@Elvoratraining.com
           </p>
           <p className="font-Geist font-bold text-[14px]">
             Phone: +1 (123) 456-7890
@@ -63,12 +63,14 @@ const Footer = () => {
           <Link className="font-Geist font-bold text-[14px] mt-2">
             LINKEDIN
           </Link>
-          <Link className="font-Geist font-bold text-[14px] mt-2">SPOTIFY</Link>
+          <Link className="font-Geist font-bold text-[14px] mt-2">
+            FACEBOOK
+          </Link>
         </div>
       </div>
       <div className="flex justify-center items-center text-center bg-[#e9ecfc] pb-5">
         <h1 className="font-Geist font-bold text-[14px]">
-          © 2024 Brajesh Training. All rights reserved.
+          © 2026 Elvora Training. All rights reserved.
         </h1>
       </div>
     </>

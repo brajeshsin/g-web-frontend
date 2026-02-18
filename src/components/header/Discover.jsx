@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Discover = () => {
   return (
     <div className="flex flex-col sm:flex-row w-full">
@@ -51,7 +53,12 @@ const Discover = () => {
           className="flex-1 flex items-center p-10 md:p-0
         justify-center md:justify-start"
         >
-          <p className="px-6 capitalize font-AnekTamil">View Classes</p>
+          <Link
+            to={"/reserve"}
+            className="px-6 capitalize font-AnekTamil  rounded-full bg-[#0000] font-bold underline cursor-pointer "
+          >
+            View Classes
+          </Link>
         </div>
       </div>
 

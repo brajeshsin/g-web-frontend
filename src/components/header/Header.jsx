@@ -23,7 +23,7 @@ const Header = () => {
           <img src="/assets/Vector.png" alt="Logo" />
 
           <h1 className="font-bold text-[18px]  md:text-[20px] text-black font-InstrumentSans">
-            Primal Training
+            Elvora Training
           </h1>
         </Link>
 
@@ -82,7 +82,7 @@ const Header = () => {
           <Link to="/" className="flex items-center gap-3" onClick={closeMenu}>
             <img src="/assets/Vector.png" alt="Logo" />
             <h1 className="font-bold text-[18px] font-InstrumentSans">
-              Brajesh Training
+              Elvora Training
             </h1>
           </Link>
 

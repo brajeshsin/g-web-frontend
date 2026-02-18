@@ -17,16 +17,16 @@ const About_hero = () => {
                xl:text-[65px] 
                "
           >
-            Tap into Your Brajesh Power. <br /> Forge a Stronger You.
+            Tap into Your Elvora Power. <br /> Forge a Stronger You.
           </h1>
 
           <h1 className="font-AnekTamil  font-bold text-[22px] mt-15  md:mt-60 px-6 uppercase">
             OUR VISION
           </h1>
           <h1 className="font-Geist font-normal text-[20px] px-6 mt-4 ">
-            Brajesh Training is committed to delivering a training experience
+            Elvora Training is committed to delivering a training experience
             rooted in raw strength, functional <br /> fitness, and unwavering
-            community support. We empower our members to tap into their Brajesh
+            community support. We empower our members to tap into their Elvora
             power, <br /> achieve their goals, and live a life of strength,
             resilience, and unwavering determination.
           </h1>
@@ -62,7 +62,7 @@ const About_hero = () => {
             DYNAMIC OPEN GYM
           </h1>
           <h1 className="ont-Geist font-normal text-[20px]  md:mt-85 px-4 ">
-            At Brajesh Training, we strip away the fluff and focus on the
+            At Elvora Training, we strip away the fluff and focus on the
             fundamentals. Our expert coaches guide you through intense,
             functional workouts designed to build raw strength, resilience, and
             a body capable of anything.
@@ -84,7 +84,7 @@ const About_hero = () => {
         text-4xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-[85px]
         text-center leading-tight"
           >
-            JOIN THE Brajesh TRIBE TODAY
+            JOIN THE Elvora TRIBE TODAY
           </h1>
 
           <Link

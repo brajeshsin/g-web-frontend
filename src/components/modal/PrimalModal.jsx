@@ -3,7 +3,7 @@
 // import toast from "react-hot-toast";
 // import { apiService } from "../../services/api";
 
-// const BrajeshModal = ({ open, onClose }) => {
+// const ElvoraModal = ({ open, onClose }) => {
 //   const [loading, setLoading] = useState(false);
 
 //   const [formData, setFormData] = useState({
@@ -152,7 +152,7 @@
 //   );
 // };
 
-// export default BrajeshModal;
+// export default ElvoraModal;
 import React, { useState } from "react";
 import { X, Loader2 } from "lucide-react";
 import toast from "react-hot-toast";
@@ -161,7 +161,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { reservationSchema } from "../../validations/reservationSchema";
 
-const BrajeshModal = ({ open, onClose }) => {
+const ElvoraModal = ({ open, onClose }) => {
   const [loading, setLoading] = useState(false);
 
   const {
@@ -312,4 +312,4 @@ const BrajeshModal = ({ open, onClose }) => {
   );
 };
 
-export default BrajeshModal;
+export default ElvoraModal;

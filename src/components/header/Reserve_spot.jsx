@@ -12,7 +12,7 @@ const ReserveSpot = () => {
         text-4xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-[85px]
         text-center leading-tight"
       >
-        JOIN THE Brajesh TRIBE <br />
+        JOIN THE Elvora TRIBE <br />
         TODAY
       </h1>
 

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import BrajeshModal from "../modal/PrimalModal";
+import ElvoraModal from "../modal/PrimalModal";
 
 const Reverse2 = () => {
   const [openModal, setOpenModal] = useState(false);
@@ -88,12 +88,12 @@ const Reverse2 = () => {
       {/* ===== PERSONAL TRAINING SECTION ===== */}
       <div className="flex flex-col justify-center items-center py-28 bg-[#7f8df9] border-b-2">
         <h1 className="font-AnekTamil font-extrabold text-4xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-[85px] text-center leading-tight uppercase">
-          Brajesh Personal Training
+          Elvora Personal Training
         </h1>
 
         <p className="max-w-3xl text-center mt-6 px-6">
           Receive personalized guidance and tailored programs designed to unlock
-          your individual Brajesh potential. Our expert coaches will guide you
+          your individual Elvora potential. Our expert coaches will guide you
           every step of the way.
         </p>
 
@@ -106,7 +106,7 @@ const Reverse2 = () => {
       </div>
 
       {/* ===== MODAL ===== */}
-      <BrajeshModal open={openModal} onClose={() => setOpenModal(false)} />
+      <ElvoraModal open={openModal} onClose={() => setOpenModal(false)} />
     </div>
   );
 };
